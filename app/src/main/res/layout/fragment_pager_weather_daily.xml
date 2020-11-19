@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/gallery_thumb">
+
+    <TextView
+        android:id="@+id/tvForecastDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <GridLayout
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false"
+        android:columnCount="2"
+        android:rowCount="1">
+
+        <TextView
+            android:id="@+id/tvMainIcon"
+            android:layout_column="0"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/tvTemp"
+            android:layout_column="1"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="40sp"/>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false"
+        android:columnCount="3"
+        android:rowCount="2">
+
+        <TextView
+            android:id="@+id/tvPressureIcon"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_width="70dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tvPressure"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_width="70dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/tvHumidityIcon"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_width="90dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tvHumidity"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_width="90dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/tvWindIcon"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_width="70dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tvWind"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_width="70dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </GridLayout>
+
+</LinearLayout>

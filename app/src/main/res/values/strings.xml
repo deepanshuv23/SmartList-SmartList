@@ -1,0 +1,70 @@
+<resources>
+    <!-- Hlavni aktivita -->
+    <string name="app_name">SmartList</string>
+    <string name="et_task_name_hint">Task name&#8230;</string>
+    <string name="btn_add_task">add task</string>
+    <string name="btn_task_lists">task_lists</string>
+
+    <!-- Aktivita Editace ukolu -->
+    <string name="tv_task_name_label">task_name</string>
+    <string name="tv_task_description_label">task_description</string>
+    <string name="tv_due_date_label">due_date</string>
+    <string name="tv_notification_date_label">notification_date</string>
+    <string name="tv_place_label">place</string>
+    <string name="tv_radius_label">radius</string>
+    <string name="tv_radius">1,5 km</string>
+    <string name="tv_set_geofence_label">set_geofence</string>
+    <string name="btn_edit_task">edit_task</string>
+    <string name="tv_task_list_label">task list</string>
+    <string name="tv_task_completed_label">task completed</string>
+    <string name="tv_recording_label">recording</string>
+    <string name="tb_stop">STOP</string>
+    <string name="tb_start">START</string>
+
+    <!-- Item listu -->
+    <string name="photo_thumbnail">photo_thumbnail</string>
+
+    <!-- ActionBary -->
+    <string name="action_add_task_list">add_task</string>
+    <string name="action_sort">sort</string>
+    <string name="action_settings">settings</string>
+    <string name="action_hide_completed">Hide fulfilled</string>
+    <string name="action_show_all_tasks">Show all task</string>
+    <string name="action_task_places_map">Map of task locations in the list</string>
+    <string name="action_done">Done</string>
+    <string name="action_delete_task">Delete Task</string>
+    <string name="action_edit_task">edit_task</string>
+
+    <!-- TaskLists ContextMenu -->
+    <string name="task_list_rename">Rename list</string>
+    <string name="task_list_delete">Delete list</string>
+
+    <!-- Sort ContextMenu -->
+    <string name="sort_by_due_date_ascending">sort_by_due_date_ascending</string>
+    <string name="sort_by_due_date_descending">sort_by_due_date_descending</string>
+    <string name="sort_by_due_date_then_by_distance">sort_by_due_date_then_by_distance</string>
+    <string name="sort_by_distance">sort_by_distance</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Weather Icons-->
+    <string name="weather_day_sunny">&#xf00d;</string>
+    <string name="weather_day_cloudy">&#xf002;</string>
+    <string name="weather_cloud">&#xf041;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_day_showers">&#xf009;</string>
+    <string name="weather_day_rain">&#xf008;</string>
+    <string name="weather_day_thunderstorm">&#xf010;</string>
+    <string name="weather_day_snow">&#xf00a;</string>
+    <string name="weather_day_fog">&#xf003;</string>
+    <string name="weather_day_sunny_overcast">&#xf00c;</string>
+    <string name="weather_night_cloudy">&#xf086;</string>
+    <string name="weather_night_showers">&#xf037;</string>
+    <string name="weather_night_rain">&#xf036;</string>
+    <string name="weather_night_thunderstorm">&#xf01e;</string>
+    <string name="weather_night_snow">&#xf038;</string>
+    <string name="weather_night_fog">&#xf04a;</string>
+    <string name="weather_barometer">&#xf079;</string>
+    <string name="weather_humidity">&#xf07a;</string>
+    <string name="weather_windy">&#xf021;</string>
+</resources>
